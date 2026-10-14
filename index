@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG U+ 공식인증대리점 한빛컴퍼니 | iPhone Duo 사전예약 특별 프로모션</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        uplus: {
+                            magenta: '#E6007E',
+                            light: '#FF4DA6',
+                            dark: '#B30062',
+                            deep: '#12050B',
+                            card: '#190E14',
+                            border: '#381B2B'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #18181b;
+            overflow-x: hidden;
+            font-family: 'Pretendard', sans-serif;
+        }
+        /* LG U+ 화이트 글래스모피즘 효과 */
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .glass-card {
+            background: #ffffff;
+            border: 1px solid rgba(230, 0, 126, 0.14);
+            box-shadow: 0 12px 32px -8px rgba(24, 24, 27, 0.06);
+        }
+        .glass-card:hover {
+            border-color: rgba(230, 0, 126, 0.45);
+            box-shadow: 0 16px 40px -8px rgba(230, 0, 126, 0.12);
+        }
+        /* 텍스트 그라데이션 (화이트 배경용 고대비) */
+        .text-gradient-uplus {
+            background: linear-gradient(135deg, #18181b 0%, #E6007E 55%, #9333ea 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* 스크롤 페이드인 애니메이션 */
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: all 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* 버튼 빛 반사 효과 */
+        .btn-shine {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-shine::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -60%;
+            width: 40%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.35);
+            transform: rotate(30deg);
+            transition: all 0.6s ease;
+        }
+        .btn-shine:hover::after {
+            left: 130%;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-[#E6007E] selection:text-white pb-28 sm:pb-0 bg-white text-zinc-900">
+
+    <!-- 상단 고정 네비게이션 -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-zinc-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-2.5 group">
+                <div class="px-2.5 py-1 rounded-lg bg-[#E6007E] text-white font-extrabold text-sm tracking-tight flex items-center shadow-md shadow-[#E6007E]/25">
+                    LG U+
+                </div>
+                <div class="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                    <span class="font-bold tracking-tight text-zinc-900 text-sm sm:text-base">iPhone Duo</span>
+                    <span class="text-[11px] px-2 py-0.5 rounded-full bg-pink-50 text-[#E6007E] border border-pink-200 font-semibold w-fit">공식인증대리점 한빛컴퍼니</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-semibold text-zinc-600">
+                <a href="#benefits" class="hover:text-[#E6007E] transition">대리점 특별 지원금</a>
+                <a href="#features" class="hover:text-[#E6007E] transition">제품 특장점</a>
+                <a href="#preorder-form" class="hover:text-[#E6007E] transition">사전예약 신청</a>
+                <a href="#consult" class="hover:text-[#E6007E] transition">카톡/전화 상담</a>
+            </nav>
+            <a href="#preorder-form" class="btn-shine bg-[#E6007E] hover:bg-[#d10072] text-white text-xs font-bold px-4 py-2 rounded-full transition shadow-md shadow-[#E6007E]/30">
+                사전예약 신청하기
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. 히어로 섹션 (Hero Section) -->
+    <section class="relative pt-28 pb-20 md:pt-36 md:pb-24 px-4 overflow-hidden bg-gradient-to-b from-pink-50/60 via-white to-white">
+        <!-- LG U+ 마젠타 배경 글로우 장식 -->
+        <div class="pointer-events-none absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[360px] sm:w-[680px] h-[360px] sm:h-[460px] bg-gradient-to-tr from-pink-200/50 via-purple-200/35 to-rose-100/40 blur-[110px] rounded-full -z-10"></div>
+
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-50 border border-pink-200 text-xs font-bold text-[#E6007E] mb-6 reveal active shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-[#E6007E] animate-ping"></span>
+                <span>LG 유플러스 공식 대리점 VIP 사전예약 접수 중</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-tight text-zinc-900 mb-4 reveal active">
+                유플러스에서 가장 완벽하게.<br>
+                <span class="text-gradient-uplus">iPhone Duo</span>
+            </h1>
+
+            <p class="text-base sm:text-xl text-zinc-600 font-normal max-w-2xl mx-auto mb-8 reveal active">
+                오직 LG U+ 공식 대리점에서만 드리는 <strong class="text-[#E6007E] font-extrabold">최대 50만 원 특별 지원금</strong>과 함께<br class="hidden sm:inline">
+                새로운 차원의 듀얼 스크린 아이폰을 가장 먼저 만나보세요.
+            </p>
+
+            <!-- 사전예약 및 출시 일정 안내 배너 -->
+            <div class="max-w-2xl mx-auto mb-8 grid grid-cols-1 sm:grid-cols-2 gap-3 reveal active">
+                <div class="glass-card rounded-2xl p-4 border border-pink-200 flex items-center justify-center sm:justify-start gap-3.5">
+                    <div class="w-11 h-11 rounded-xl bg-pink-50 border border-pink-200 flex items-center justify-center text-[#E6007E] shrink-0">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="text-left">
+                        <span class="text-[11px] font-bold text-[#E6007E] uppercase tracking-wider block">사전예약 오픈 일정</span>
+                        <p class="text-base sm:text-lg font-extrabold text-zinc-900">10월 16일(금) 오후 9시~</p>
+                    </div>
+                </div>
+                <div class="glass-card rounded-2xl p-4 border border-purple-200 flex items-center justify-center sm:justify-start gap-3.5">
+                    <div class="w-11 h-11 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center text-purple-600 shrink-0">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <div class="text-left">
+                        <span class="text-[11px] font-bold text-purple-600 uppercase tracking-wider block">대한민국 공식 출시일</span>
+                        <p class="text-base sm:text-lg font-extrabold text-zinc-900">10월 23일(금) 정식 출시</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 실시간 카운트다운 타이머 -->
+            <div class="max-w-md mx-auto mb-10 p-4 rounded-2xl glass-card reveal active">
+                <p id="countdown-title" class="text-xs text-[#E6007E] mb-2.5 font-bold tracking-wider uppercase">
+                    10월 16일 오후 9시 사전예약 오픈까지 남은 시간
+                </p>
+                <div class="grid grid-cols-4 gap-2 text-center">
+                    <div class="bg-zinc-50 border border-zinc-200 rounded-xl py-2.5">
+                        <span id="cd-days" class="text-2xl sm:text-3xl font-extrabold text-zinc-900 tabular-nums">02</span>
+                        <p class="text-[11px] text-zinc-500 mt-0.5">일 (Days)</p>
+                    </div>
+                    <div class="bg-zinc-50 border border-zinc-200 rounded-xl py-2.5">
+                        <span id="cd-hours" class="text-2xl sm:text-3xl font-extrabold text-zinc-900 tabular-nums">04</span>
+                        <p class="text-[11px] text-zinc-500 mt-0.5">시간 (Hrs)</p>
+                    </div>
+                    <div class="bg-zinc-50 border border-zinc-200 rounded-xl py-2.5">
+                        <span id="cd-mins" class="text-2xl sm:text-3xl font-extrabold text-zinc-900 tabular-nums">38</span>
+                        <p class="text-[11px] text-zinc-500 mt-0.5">분 (Mins)</p>
+                    </div>
+                    <div class="bg-pink-50 border border-pink-200 rounded-xl py-2.5">
+                        <span id="cd-secs" class="text-2xl sm:text-3xl font-extrabold text-[#E6007E] tabular-nums">12</span>
+                        <p class="text-[11px] text-[#E6007E] font-medium mt-0.5">초 (Secs)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 메인 CTA 버튼 -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14 reveal active">
+                <a href="#preorder-form" class="btn-shine w-full sm:w-auto px-9 py-4 rounded-full bg-gradient-to-r from-[#E6007E] to-pink-600 text-white font-extrabold text-base hover:from-[#d10072] hover:to-pink-500 transition shadow-xl shadow-[#E6007E]/25 flex items-center justify-center gap-2">
+                    <span>최대 50만원 지원금 받고 예약하기</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                    </svg>
+                </a>
+                <a href="#consult" class="w-full sm:w-auto px-7 py-4 rounded-full bg-white text-zinc-700 font-bold text-base border border-zinc-300 hover:border-[#E6007E] hover:text-[#E6007E] transition shadow-sm">
+                    카카오톡 / 전화 빠른 상담
+                </a>
+            </div>
+
+            <!-- 첨부된 Apple 공식 iPhone Duo 실물 배너 섹션 ("반가워요, 반가워요") -->
+            <div class="relative max-w-5xl mx-auto pt-2 reveal active">
+                <div class="relative rounded-[32px] bg-[#efefef] border border-zinc-200/90 shadow-2xl overflow-hidden px-6 pt-10 pb-0 sm:px-12 sm:pt-12">
+                    
+                    <!-- 원본 이미지 파일 즉시 교체 버튼 -->
+                    <div class="absolute top-3.5 right-4 z-20 flex items-center gap-2">
+                        <label for="realBannerUpload" class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/90 hover:bg-white text-zinc-700 hover:text-[#E6007E] border border-zinc-300 text-[11px] font-bold shadow-sm transition" title="첨부하신 스크린샷 원본 파일을 선택하면 100% 원본 사진으로 즉시 표시됩니다">
+                            <svg class="w-3.5 h-3.5 text-[#E6007E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                            </svg>
+                            <span>원본 이미지 파일 불러오기</span>
+                        </label>
+                        <input type="file" id="realBannerUpload" accept="image/*" class="hidden" onchange="handleRealBannerUpload(event)">
+                    </div>
+
+                    <!-- 사용자가 원본 이미지 업로드 시 표시될 컨테이너 -->
+                    <div id="uploadedBannerContainer" class="hidden -mx-6 -mt-10 sm:-mx-12 sm:-mt-12">
+                        <img id="uploadedBannerImg" src="" alt="iPhone Duo 공식 배너" class="w-full h-auto block object-cover">
+                    </div>
+
+                    <!-- 기본 표시: 첨부 이미지("iPhone Duo 반가워요, 반가워요" + 실물 폴더블 기기 & 양손 파지) 1:1 정밀 구현 -->
+                    <div id="defaultBannerContainer" class="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+                        <!-- 좌측: Apple iPhone Duo 공식 타이포그래피 -->
+                        <div class="lg:col-span-5 text-center lg:text-left pb-4 lg:pb-12">
+                            <div class="inline-flex items-center justify-center lg:justify-start gap-2 sm:gap-2.5 text-zinc-900 mb-2">
+                                <svg class="w-8 h-8 sm:w-10 sm:h-10 fill-current -mt-1" viewBox="0 0 170 170">
+                                    <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.13-1.9-14.34-6.08-3.69-3.03-7.61-7.72-11.77-14.08-5.93-8.98-10.72-19.34-14.38-31.08-3.66-11.74-5.49-22.74-5.49-33 0-12.71 3.16-23.16 9.48-31.34 6.32-8.18 14.3-12.44 23.94-12.78 4.92 0 10.37 1.52 16.35 4.55 5.98 3.03 9.83 4.59 11.55 4.69 1.34 0 5.62-1.8 12.83-5.4 7.21-3.6 13.34-5.13 18.39-4.59 13.64 1.1 23.91 6.46 30.81 16.09-12.19 7.39-18.14 17.56-17.85 30.51.29 10.22 4.19 18.69 11.7 25.41 5.21 4.71 11.41 7.59 18.6 8.64-1.49 4.59-3.27 9.18-5.34 13.73zM119.22 31.01c0 7.99-2.92 15.44-8.76 22.35-7.04 8.24-15.58 12.99-24.82 12.24-.19-.96-.29-2.01-.29-3.15 0-7.69 3.24-15.9 9.72-23.09 3.1-3.48 7.03-6.37 11.79-8.67 4.76-2.3 9.27-3.58 13.53-3.84.29 1.44.43 2.83.43 4.16z"/>
+                                </svg>
+                                <span class="text-3xl sm:text-5xl font-bold tracking-tight">iPhone Duo</span>
+                            </div>
+                            <h2 class="text-3xl sm:text-5xl font-black text-zinc-900 tracking-tight leading-tight mb-4">
+                                반가워요, 반가워요
+                            </h2>
+                            <p class="text-base sm:text-xl font-bold text-zinc-800 tracking-tight">
+                                10/16 9PM 사전예약. 10/23 출시.
+                            </p>
+                            <div class="mt-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E6007E]/10 text-[#E6007E] text-xs font-extrabold">
+                                <span>★ LG U+ 한빛컴퍼니 단독 최대 50만원 지원</span>
+                            </div>
+                        </div>
+
+                        <!-- 우측: 양손으로 들고 있는 실물 iPhone Duo 디테일 렌더링 -->
+                        <div class="lg:col-span-7 flex justify-center items-end">
+                            <svg viewBox="0 0 680 450" class="w-full max-w-[620px] h-auto drop-shadow-[0_22px_35px_rgba(0,0,0,0.18)]" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skyBlueGrad" x1="340" y1="30" x2="340" y2="230" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#87b2d8"/>
+                                        <stop offset="60%" stop-color="#c8d9e6"/>
+                                        <stop offset="100%" stop-color="#dfd5c6"/>
+                                    </linearGradient>
+                                    <linearGradient id="duneSandLeft" x1="170" y1="200" x2="340" y2="395" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#dfd2c0"/>
+                                        <stop offset="50%" stop-color="#cbb89d"/>
+                                        <stop offset="100%" stop-color="#9e886c"/>
+                                    </linearGradient>
+                                    <linearGradient id="duneSandRight" x1="340" y1="190" x2="540" y2="395" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#d5c5ad"/>
+                                        <stop offset="50%" stop-color="#bca483"/>
+                                        <stop offset="100%" stop-color="#8c7558"/>
+                                    </linearGradient>
+                                    <linearGradient id="silverBezel" x1="140" y1="20" x2="560" y2="410" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#f4f4f5"/>
+                                        <stop offset="50%" stop-color="#a1a1aa"/>
+                                        <stop offset="100%" stop-color="#e4e4e7"/>
+                                    </linearGradient>
+                                    <linearGradient id="handSkinLeft" x1="60" y1="160" x2="185" y2="450" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#eccab3"/>
+                                        <stop offset="55%" stop-color="#d7ab90"/>
+                                        <stop offset="100%" stop-color="#9d735b"/>
+                                    </linearGradient>
+                                    <linearGradient id="handSkinRight" x1="620" y1="160" x2="495" y2="450" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#eccab3"/>
+                                        <stop offset="55%" stop-color="#d2a386"/>
+                                        <stop offset="100%" stop-color="#936952"/>
+                                    </linearGradient>
+                                    <linearGradient id="photoWidgetBg" x1="250" y1="85" x2="250" y2="350" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#4353a3"/>
+                                        <stop offset="60%" stop-color="#5c6bc0"/>
+                                        <stop offset="100%" stop-color="#281e2c"/>
+                                    </linearGradient>
+                                    <clipPath id="leftScreenClip">
+                                        <path d="M162 56 C162 42, 172 32, 186 33 L339 43 L339 384 L186 394 C172 395, 162 385, 162 371 Z"/>
+                                    </clipPath>
+                                    <clipPath id="rightScreenClip">
+                                        <path d="M518 56 C518 42, 508 32, 494 33 L341 43 L341 384 L494 394 C508 395, 518 385, 518 371 Z"/>
+                                    </clipPath>
+                                    <clipPath id="photoCardClip">
+                                        <rect x="180" y="84" width="142" height="256" rx="18"/>
+                                    </clipPath>
+                                </defs>
+
+                                <!-- 뒷손가락 그림자 -->
+                                <path d="M88 450 C85 375, 86 290, 96 225 C102 185, 128 165, 152 175 L158 450 Z" fill="#b88c72"/>
+                                <path d="M592 450 C595 375, 594 290, 584 225 C578 185, 552 165, 528 175 L522 450 Z" fill="#b08369"/>
+
+                                <!-- 기기 외곽 실버 티타늄 바디 -->
+                                <path d="M150 52 C150 34, 164 21, 182 22 L340 33 L498 22 C516 21, 530 34, 530 52 L530 375 C530 393, 516 406, 498 405 L340 394 L182 405 C164 406, 150 393, 150 375 Z" fill="#18181b" stroke="url(#silverBezel)" stroke-width="5"/>
+
+                                <!-- 좌측 디스플레이 영역 -->
+                                <g clip-path="url(#leftScreenClip)">
+                                    <rect x="155" y="25" width="190" height="380" fill="url(#skyBlueGrad)"/>
+                                    <path d="M155 245 Q240 220 340 250 L340 400 L155 400 Z" fill="url(#duneSandLeft)"/>
+                                    <g clip-path="url(#photoCardClip)">
+                                        <rect x="180" y="84" width="142" height="256" fill="url(#photoWidgetBg)"/>
+                                        <ellipse cx="255" cy="182" rx="38" ry="48" fill="#18181b"/>
+                                        <path d="M217 165 C212 210, 215 260, 222 290 L288 290 C295 255, 296 210, 292 165 Z" fill="#141416"/>
+                                        <ellipse cx="254" cy="188" rx="24" ry="30" fill="#d9a17c"/>
+                                        <path d="M230 160 Q245 190 242 215" stroke="#141416" stroke-width="5" stroke-linecap="round"/>
+                                        <path d="M254 155 Q262 185 268 205" stroke="#141416" stroke-width="6" stroke-linecap="round"/>
+                                        <ellipse cx="243" cy="186" rx="3.5" ry="2" fill="#18181b"/>
+                                        <ellipse cx="264" cy="186" rx="3.5" ry="2" fill="#18181b"/>
+                                        <path d="M175 275 Q245 195 320 245 L315 345 L175 345 Z" fill="#f4f1ea" stroke="#d6d1c4" stroke-width="1.5"/>
+                                        <line x1="205" y1="245" x2="245" y2="340" stroke="#d4cfc2" stroke-width="1.5"/>
+                                        <line x1="225" y1="232" x2="258" y2="340" stroke="#d4cfc2" stroke-width="1.5"/>
+                                        <line x1="248" y1="225" x2="270" y2="340" stroke="#d4cfc2" stroke-width="1.5"/>
+                                        <line x1="270" y1="225" x2="285" y2="340" stroke="#d4cfc2" stroke-width="1.5"/>
+                                        <circle cx="272" cy="248" r="14" fill="#ec4899" opacity="0.85"/>
+                                        <circle cx="282" cy="256" r="10" fill="#db2777" opacity="0.9"/>
+                                        <circle cx="262" cy="268" r="6" fill="#9333ea" opacity="0.75"/>
+                                        <rect x="180" y="285" width="142" height="55" fill="rgba(0,0,0,0.38)"/>
+                                        <text x="192" y="315" fill="#ffffff" font-size="10" font-weight="700">과거의 오늘</text>
+                                        <text x="192" y="327" fill="rgba(255,255,255,0.75)" font-size="7">2025년 4월 1일</text>
+                                        <circle cx="306" cy="320" r="8" fill="rgba(0,0,0,0.5)"/>
+                                        <polygon points="304,317 304,323 309,320" fill="#ffffff"/>
+                                    </g>
+                                </g>
+
+                                <!-- 우측 디스플레이 영역 -->
+                                <g clip-path="url(#rightScreenClip)">
+                                    <rect x="340" y="25" width="190" height="380" fill="url(#skyBlueGrad)"/>
+                                    <path d="M340 215 Q405 185 475 210 L525 230 L525 395 L340 395 Z" fill="#463f35"/>
+                                    <path d="M340 250 Q420 225 525 200 L525 395 L340 395 Z" fill="url(#duneSandRight)"/>
+                                    <text x="488" y="48" fill="#ffffff" font-size="8" font-weight="700">9:41</text>
+
+                                    <rect x="358" y="82" width="58" height="62" rx="12" fill="#2b5b84"/>
+                                    <text x="365" y="96" fill="#ffffff" font-size="6.5" font-weight="600">서울특별시</text>
+                                    <text x="365" y="114" fill="#ffffff" font-size="16" font-weight="800">12°</text>
+                                    <circle cx="368" cy="124" r="3" fill="#fde047"/>
+                                    <text x="365" y="134" fill="#e0f2fe" font-size="5.5">부분적으로 흐림</text>
+                                    <text x="365" y="140" fill="#bae6fd" font-size="5">최고:14° 최저:6°</text>
+
+                                    <rect x="424" y="82" width="60" height="62" rx="12" fill="#e2e8f0"/>
+                                    <path d="M424 102 L484 122 M445 82 L435 144 M468 82 L460 144" stroke="#cbd5e1" stroke-width="3"/>
+                                    <path d="M424 115 Q455 105 484 95" stroke="#86efac" stroke-width="5" fill="none"/>
+                                    <circle cx="466" cy="104" r="10" fill="#3b82f6" stroke="#ffffff" stroke-width="2"/>
+                                    <text x="430" y="133" fill="#1e293b" font-size="6" font-weight="700">Channel St</text>
+                                    <text x="430" y="139" fill="#64748b" font-size="5">샌프란시스코, CA</text>
+
+                                    <!-- 앱 아이콘 그리드 -->
+                                    <rect x="358" y="156" width="24" height="24" rx="6" fill="#22c55e"/>
+                                    <rect x="363" y="164" width="10" height="8" rx="1.5" fill="#ffffff"/>
+                                    <polygon points="374,166 378,163 378,171 374,169" fill="#ffffff"/>
+
+                                    <rect x="390" y="156" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <text x="402" y="164" fill="#ef4444" font-size="5" font-weight="700" text-anchor="middle">수요일</text>
+                                    <text x="402" y="176" fill="#18181b" font-size="11" font-weight="800" text-anchor="middle">1</text>
+
+                                    <rect x="422" y="156" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <circle cx="434" cy="163" r="3.5" fill="#f43f5e" opacity="0.85"/>
+                                    <circle cx="439" cy="168" r="3.5" fill="#eab308" opacity="0.85"/>
+                                    <circle cx="434" cy="173" r="3.5" fill="#3b82f6" opacity="0.85"/>
+                                    <circle cx="429" cy="168" r="3.5" fill="#a855f7" opacity="0.85"/>
+
+                                    <rect x="454" y="156" width="24" height="24" rx="6" fill="#d4d4d8"/>
+                                    <circle cx="466" cy="168" r="7" fill="#27272a"/>
+                                    <circle cx="466" cy="168" r="3" fill="#3b82f6"/>
+
+                                    <rect x="358" y="192" width="24" height="24" rx="6" fill="#3b82f6"/>
+                                    <rect x="363" y="199" width="14" height="10" rx="1.5" fill="#ffffff"/>
+
+                                    <rect x="390" y="192" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <rect x="390" y="192" width="24" height="6" rx="2" fill="#facc15"/>
+
+                                    <rect x="422" y="192" width="24" height="24" rx="6" fill="#18181b"/>
+                                    <circle cx="434" cy="204" r="9" fill="#ffffff"/>
+                                    <line x1="434" y1="204" x2="434" y2="198" stroke="#18181b" stroke-width="1.5"/>
+                                    <line x1="434" y1="204" x2="439" y2="204" stroke="#ef4444" stroke-width="1.2"/>
+
+                                    <rect x="454" y="192" width="24" height="24" rx="6" fill="#f8fafc"/>
+                                    <path d="M454 204 L478 204" stroke="#3b82f6" stroke-width="4"/>
+                                    <circle cx="466" cy="204" r="5" fill="#22c55e"/>
+
+                                    <rect x="358" y="228" width="24" height="24" rx="6" fill="#18181b"/>
+                                    <text x="370" y="243" fill="#ffffff" font-size="8" font-weight="800" text-anchor="middle">tv</text>
+
+                                    <rect x="390" y="228" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <rect x="394" y="234" width="16" height="12" rx="2" fill="#38bdf8"/>
+
+                                    <rect x="422" y="228" width="24" height="24" rx="6" fill="#2563eb"/>
+                                    <path d="M434 233 L428 246 M434 233 L440 246 M429 243 L439 243" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+                                    <rect x="454" y="228" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <circle cx="466" cy="240" r="7" fill="#f43f5e"/>
+
+                                    <rect x="358" y="264" width="24" height="24" rx="6" fill="#ffffff"/>
+                                    <circle cx="372" cy="273" r="4" fill="#f43f5e"/>
+
+                                    <rect x="390" y="264" width="24" height="24" rx="6" fill="#18181b"/>
+                                    <rect x="394" y="269" width="16" height="12" rx="2" fill="#f59e0b"/>
+
+                                    <rect x="422" y="264" width="24" height="24" rx="6" fill="#e4e4e7"/>
+                                    <circle cx="434" cy="276" r="7" fill="#52525b"/>
+
+                                    <rect x="454" y="264" width="24" height="24" rx="6" fill="#a1a1aa"/>
+                                    <circle cx="466" cy="276" r="6" stroke="#27272a" stroke-width="2" fill="none"/>
+
+                                    <rect x="488" y="138" width="24" height="114" rx="12" fill="rgba(255,255,255,0.35)"/>
+                                    <rect x="492" y="144" width="16" height="16" rx="4" fill="#22c55e"/>
+                                    <rect x="492" y="168" width="16" height="16" rx="4" fill="#ffffff"/>
+                                    <circle cx="500" cy="176" r="6" fill="#3b82f6"/>
+                                    <rect x="492" y="192" width="16" height="16" rx="4" fill="#22c55e"/>
+                                    <rect x="492" y="216" width="16" height="16" rx="4" fill="#f43f5e"/>
+
+                                    <circle cx="416" cy="316" r="2" fill="#ffffff"/>
+                                    <circle cx="424" cy="316" r="2" fill="rgba(255,255,255,0.45)"/>
+                                </g>
+
+                                <!-- 중앙 폴딩 힌지 라인 -->
+                                <line x1="340" y1="33" x2="340" y2="394" stroke="rgba(0,0,0,0.45)" stroke-width="2.5"/>
+
+                                <!-- 양손 엄지손가락 파지 실루엣 -->
+                                <path d="M92 450 C92 385, 102 330, 114 275 C124 228, 132 182, 138 145 C142 122, 165 120, 170 144 C175 170, 172 215, 164 260 C158 295, 168 355, 198 402 L205 450 Z" fill="url(#handSkinLeft)"/>
+                                <path d="M142 135 C145 125, 158 125, 162 136 L161 152 C154 155, 146 154, 141 150 Z" fill="#f5dfd0" opacity="0.85"/>
+
+                                <path d="M588 450 C588 385, 578 330, 566 275 C556 228, 548 182, 542 145 C538 122, 515 120, 510 144 C505 170, 508 215, 516 260 C522 295, 512 355, 482 402 L475 450 Z" fill="url(#handSkinRight)"/>
+                                <path d="M538 135 C535 125, 522 125, 518 136 L519 152 C526 155, 534 154, 539 150 Z" fill="#f5dfd0" opacity="0.85"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 사전예약 특별 대리점 지원금 안내 (핵심 혜택) -->
+    <section id="benefits" class="py-24 px-4 relative border-t border-zinc-100 bg-zinc-50/70">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-14 reveal">
+                <span class="inline-block text-xs font-extrabold tracking-widest uppercase text-[#E6007E] bg-pink-50 border border-pink-200 px-3.5 py-1 rounded-full">
+                    LG U+ Official Dealer Exclusive
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mt-3 tracking-tight text-zinc-900">
+                    사전예약 특별 대리점 지원금 혜택
+                </h2>
+                <p class="text-zinc-600 mt-3 max-w-xl mx-auto text-sm sm:text-base">
+                    복잡한 사은품 대신 가장 실질적인 <strong class="text-zinc-900 font-bold">단말기 즉시 할인 지원금</strong>으로 돌려드립니다.<br>
+                    오직 본 페이지를 통해 사전예약 신청하신 고객님께만 단독 적용됩니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- 번호이동 50만원 지원금 카드 -->
+                <div class="glass-card rounded-3xl p-8 sm:p-10 relative overflow-hidden border-2 border-[#E6007E] shadow-xl shadow-[#E6007E]/10 hover:-translate-y-1.5 transition duration-300 reveal">
+                    <div class="absolute top-5 right-5 bg-[#E6007E] text-white text-xs font-extrabold px-3 py-1 rounded-full shadow">
+                        최대 지원 혜택
+                    </div>
+                    <span class="text-xs font-bold text-[#E6007E] tracking-wider uppercase">번호이동 (타 통신사 ➔ LG U+)</span>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 mt-2 mb-2">
+                        번호이동 특별 지원금
+                    </h3>
+                    <div class="my-6 py-5 px-6 rounded-2xl bg-pink-50/80 border border-pink-200 flex items-baseline justify-between">
+                        <span class="text-sm text-zinc-700 font-bold">대리점 단독 추가 지원</span>
+                        <p class="text-3xl sm:text-5xl font-black text-[#E6007E] tracking-tight">
+                            500,000<span class="text-lg sm:text-2xl font-bold text-zinc-800 ml-1">원</span>
+                        </p>
+                    </div>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-zinc-600 mb-6">
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-pink-100 text-[#E6007E] flex items-center justify-center text-xs font-bold">✓</span>
+                            SKT / KT / 알뜰폰에서 LG 유플러스로 통신사 이동 고객
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-pink-100 text-[#E6007E] flex items-center justify-center text-xs font-bold">✓</span>
+                            공시지원금 또는 선택약정(25% 요금할인)과 <strong class="text-zinc-900">100% 중복 적용</strong>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-pink-100 text-[#E6007E] flex items-center justify-center text-xs font-bold">✓</span>
+                            출시일(10월 23일) 1차 초도물량 최우선 배정
+                        </li>
+                    </ul>
+                    <a href="#preorder-form" onclick="selectJoinTypeFromBenefit('번호이동 (통신사이동)', 500000)" class="block w-full py-3.5 rounded-xl bg-[#E6007E] hover:bg-[#d10072] text-white font-bold text-sm text-center transition shadow-md shadow-[#E6007E]/20">
+                        번호이동 50만원 지원금으로 예약하기
+                    </a>
+                </div>
+
+                <!-- 기기변경 30만원 지원금 카드 -->
+                <div class="glass-card rounded-3xl p-8 sm:p-10 relative overflow-hidden border border-purple-300 hover:-translate-y-1.5 transition duration-300 reveal">
+                    <div class="absolute top-5 right-5 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                        기존 U+ 고객 전용
+                    </div>
+                    <span class="text-xs font-bold text-purple-600 tracking-wider uppercase">기기변경 (LG U+ 그대로 유지)</span>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 mt-2 mb-2">
+                        기기변경 특별 지원금
+                    </h3>
+                    <div class="my-6 py-5 px-6 rounded-2xl bg-purple-50/80 border border-purple-200 flex items-baseline justify-between">
+                        <span class="text-sm text-zinc-700 font-bold">대리점 단독 추가 지원</span>
+                        <p class="text-3xl sm:text-5xl font-black text-purple-600 tracking-tight">
+                            300,000<span class="text-lg sm:text-2xl font-bold text-zinc-800 ml-1">원</span>
+                        </p>
+                    </div>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-zinc-600 mb-6">
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            현재 LG 유플러스를 이용 중이신 우수 기기변경 고객
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            기존 가족결합·장기고객 할인 혜택 그대로 유지 가능
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-4 h-4 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs font-bold">✓</span>
+                            공시지원금 또는 선택약정(25% 요금할인)과 <strong class="text-zinc-900">100% 중복 적용</strong>
+                        </li>
+                    </ul>
+                    <a href="#preorder-form" onclick="selectJoinTypeFromBenefit('기기변경', 300000)" class="block w-full py-3.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-bold text-sm text-center transition shadow-md shadow-purple-600/20">
+                        기기변경 30만원 지원금으로 예약하기
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 핵심 특장점 소개 (Bento Grid 레이아웃) -->
+    <section id="features" class="py-24 px-4 border-t border-zinc-200/70 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="text-xs font-bold tracking-widest uppercase text-[#E6007E]">Innovation</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mt-2 tracking-tight text-zinc-900">경계를 지운 엔지니어링의 정점.</h2>
+                <p class="text-zinc-600 mt-3 max-w-xl mx-auto text-sm sm:text-base">
+                    펼치는 순간 8.3인치 광활한 워크스페이스로 변신하는 iPhone Duo의 독보적인 기술력을 만나보세요.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <!-- 카드 1: 제로 갭 힌지 & 듀얼 레티나 XDR -->
+                <div class="md:col-span-7 glass-card rounded-3xl p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden group reveal">
+                    <div class="relative z-10">
+                        <span class="inline-block text-xs font-bold text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full mb-4">
+                            Zero-Gap Hinge & Dual XDR
+                        </span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 mb-3 leading-snug">
+                            접힌 흔적조차 허락하지 않는<br>무결점 듀얼 레티나 디스플레이.
+                        </h3>
+                        <p class="text-zinc-600 text-sm sm:text-base leading-relaxed max-w-lg">
+                            항공우주 등급 티타늄과 리퀴드 메탈로 설계된 마이크로 제로 갭 힌지가 두 개의 ProMotion 120Hz OLED 패널을 하나의 캔버스처럼 완벽하게 연결합니다.
+                        </p>
+                    </div>
+
+                    <div class="mt-10 grid grid-cols-3 gap-4 pt-6 border-t border-zinc-200 relative z-10">
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-zinc-900">8.3<span class="text-base font-normal text-zinc-500">인치</span></p>
+                            <p class="text-xs text-zinc-500 mt-1">펼쳤을 때 대화면</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-zinc-900">4.9<span class="text-base font-normal text-zinc-500">mm</span></p>
+                            <p class="text-xs text-zinc-500 mt-1">초슬림 언폴드 두께</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-zinc-900">2,800<span class="text-base font-normal text-zinc-500">니트</span></p>
+                            <p class="text-xs text-zinc-500 mt-1">야외 최대 밝기</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 카드 2: A20 Pro 칩셋 -->
+                <div class="md:col-span-5 glass-card rounded-3xl p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden group reveal">
+                    <div>
+                        <span class="inline-block text-xs font-bold text-purple-600 bg-purple-50 border border-purple-200 px-3 py-1 rounded-full mb-4">
+                            Apple Silicon
+                        </span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 mb-3">
+                            A20 Pro 칩.<br>몬스터급 멀티태스킹.
+                        </h3>
+                        <p class="text-zinc-600 text-sm sm:text-base leading-relaxed">
+                            2나노 공정으로 완성된 A20 Pro가 양쪽 화면에서 4K ProRes 영상 편집과 고사양 레이 트레이싱 게임을 동시에 구동합니다.
+                        </p>
+                    </div>
+
+                    <div class="my-8 flex items-center justify-center">
+                        <div class="w-36 h-36 rounded-2xl bg-gradient-to-br from-zinc-900 via-zinc-800 to-black border-2 border-zinc-300 shadow-xl flex flex-col items-center justify-center relative group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-1 rounded-xl border border-pink-500/40"></div>
+                            <span class="text-xs text-zinc-300 tracking-widest">APPLE</span>
+                            <span class="text-2xl font-extrabold text-white mt-0.5">A20 PRO</span>
+                            <span class="text-[10px] text-pink-300 mt-1">2nm Neural Engine</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between text-xs text-zinc-500 pt-4 border-t border-zinc-200">
+                        <span>CPU 속도 최대 <strong class="text-zinc-900">25% 향상</strong></span>
+                        <span>전력 효율 <strong class="text-zinc-900">35% 개선</strong></span>
+                    </div>
+                </div>
+
+                <!-- 카드 3: 프로 카메라 시스템 -->
+                <div class="md:col-span-12 glass-card rounded-3xl p-8 sm:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative overflow-hidden reveal">
+                    <div class="lg:col-span-7">
+                        <span class="inline-block text-xs font-bold text-[#E6007E] bg-pink-50 border border-pink-200 px-3 py-1 rounded-full mb-4">
+                            Pro Camera System
+                        </span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-zinc-900 mb-3">
+                            삼각대가 필요 없는 플렉스 스튜디오 카메라.
+                        </h3>
+                        <p class="text-zinc-600 text-sm sm:text-base leading-relaxed mb-6">
+                            기기를 90도로 세워두는 것만으로 완벽한 타임랩스와 천체 사진을 촬영할 수 있습니다. 48MP 트리플 퓨전 카메라와 듀얼 스크린 프리뷰로 피사체와 촬영자 모두가 실시간 구도를 확인할 수 있습니다.
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="text-xs bg-zinc-100 border border-zinc-200 px-3.5 py-2 rounded-xl text-zinc-700 font-medium">48MP 메인 · 초광각 · 5배 광학 망원</span>
+                            <span class="text-xs bg-zinc-100 border border-zinc-200 px-3.5 py-2 rounded-xl text-zinc-700 font-medium">듀얼 스크린 실시간 미러링</span>
+                            <span class="text-xs bg-zinc-100 border border-zinc-200 px-3.5 py-2 rounded-xl text-zinc-700 font-medium">공간 비디오 촬영 지원</span>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="w-56 h-56 rounded-3xl bg-zinc-100 border border-zinc-300 p-5 grid grid-cols-2 gap-4 items-center shadow-inner relative">
+                            <div class="w-20 h-20 rounded-full bg-zinc-900 border-4 border-zinc-400 flex items-center justify-center shadow-md">
+                                <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-900 to-indigo-500 opacity-90"></div>
+                            </div>
+                            <div class="flex flex-col items-center gap-4">
+                                <div class="w-6 h-6 rounded-full bg-amber-200 border border-zinc-400"></div>
+                                <div class="w-20 h-20 rounded-full bg-zinc-900 border-4 border-zinc-400 flex items-center justify-center shadow-md">
+                                    <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-900 to-pink-500 opacity-90"></div>
+                                </div>
+                            </div>
+                            <div class="w-20 h-20 rounded-full bg-zinc-900 border-4 border-zinc-400 flex items-center justify-center shadow-md -mt-6">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-sky-900 to-cyan-400 opacity-90"></div>
+                            </div>
+                            <div class="w-9 h-9 rounded-full bg-zinc-300 border border-zinc-400 mx-auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 인터랙티브 사전예약 신청 폼 (핵심 전환 영역) -->
+    <section id="preorder-form" class="py-24 px-4 bg-gradient-to-b from-pink-50/50 to-zinc-50 border-t border-pink-200/60">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12 reveal">
+                <span class="text-xs font-extrabold tracking-widest uppercase text-[#E6007E]">LG U+ Pre-Order Registration</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold mt-2 tracking-tight text-zinc-900">iPhone Duo 사전예약 신청서</h2>
+                <p class="text-zinc-600 mt-3 text-sm sm:text-base">
+                    10월 16일 오후 9시 본 예약 시작 전 미리 신청하시고 <strong class="text-[#E6007E]">대리점 특별 지원금(최대 50만 원)</strong>과 <strong class="text-zinc-900">10월 23일 출시 당일 개통</strong> 혜택을 확보하세요.
+                </p>
+            </div>
+
+            <form id="reservationForm" class="glass-card rounded-3xl p-6 sm:p-10 shadow-xl reveal bg-white" onsubmit="handlePreorderSubmit(event)">
+                <!-- STEP 1: 기기 색상 선택 -->
+                <div class="mb-10">
+                    <div class="flex items-center justify-between mb-4">
+                        <label class="text-sm font-bold text-zinc-900 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-[#E6007E] text-white text-xs flex items-center justify-center font-bold">1</span>
+                            기기 색상 선택 (Color)
+                        </label>
+                        <span id="selectedColorLabel" class="text-xs font-bold text-[#E6007E]">스타화이트</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" id="colorOptions">
+                        <button type="button" onclick="selectColor('스타화이트', this)" class="color-btn flex items-center gap-4 p-4 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-left transition">
+                            <span class="w-9 h-9 rounded-full bg-gradient-to-br from-white via-zinc-100 to-zinc-300 border border-zinc-300 shadow-inner shrink-0"></span>
+                            <div>
+                                <span class="text-sm sm:text-base font-bold text-zinc-900 block">스타화이트 (Star White)</span>
+                                <span class="text-xs text-zinc-500">순백의 영롱함과 실버 티타늄 프레임의 조화</span>
+                            </div>
+                        </button>
+                        <button type="button" onclick="selectColor('나이트 스카이', this)" class="color-btn flex items-center gap-4 p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-left transition">
+                            <span class="w-9 h-9 rounded-full bg-gradient-to-br from-slate-700 via-indigo-950 to-black border border-zinc-400 shadow-inner shrink-0"></span>
+                            <div>
+                                <span class="text-sm sm:text-base font-bold text-zinc-800 block">나이트 스카이 (Night Sky)</span>
+                                <span class="text-xs text-zinc-500">밤하늘을 닮은 깊고 중후한 매트 다크 피니시</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- STEP 2: 저장 용량 선택 -->
+                <div class="mb-10">
+                    <div class="flex items-center justify-between mb-4">
+                        <label class="text-sm font-bold text-zinc-900 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-[#E6007E] text-white text-xs flex items-center justify-center font-bold">2</span>
+                            저장 용량 선택 (Storage)
+                        </label>
+                        <span id="selectedStorageLabel" class="text-xs font-bold text-[#E6007E]">512GB (3,590,000원)</span>
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="storageOptions">
+                        <button type="button" onclick="selectStorage('256GB', 3290000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
+                            <p class="text-base sm:text-lg font-extrabold text-zinc-900">256GB</p>
+                            <p class="text-xs text-zinc-500 mt-1">3,290,000원</p>
+                        </button>
+                        <button type="button" onclick="selectStorage('512GB', 3590000, this)" class="storage-btn p-4 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-center transition relative">
+                            <span class="absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-extrabold bg-[#E6007E] text-white px-2.5 py-0.5 rounded-full">인기</span>
+                            <p class="text-base sm:text-lg font-extrabold text-zinc-900">512GB</p>
+                            <p class="text-xs text-[#E6007E] font-semibold mt-1">3,590,000원</p>
+                        </button>
+                        <button type="button" onclick="selectStorage('1TB', 4190000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
+                            <p class="text-base sm:text-lg font-extrabold text-zinc-900">1TB</p>
+                            <p class="text-xs text-zinc-500 mt-1">4,190,000원</p>
+                        </button>
+                        <button type="button" onclick="selectStorage('2TB', 5090000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
+                            <p class="text-base sm:text-lg font-extrabold text-zinc-900">2TB</p>
+                            <p class="text-xs text-zinc-500 mt-1">5,090,000원</p>
+                        </button>
+                    </div>
+                    <p class="text-[11px] text-zinc-500 mt-2.5 pl-1">
+                        * 256GB(3,290,000원), 512GB(3,590,000원), 1TB(4,190,000원), 2TB(5,090,000원)은 공식 출시 전 책정된 <strong class="text-zinc-700">예상 출고가 금액입니다.</strong>
+                    </p>
+                </div>
+
+                <!-- STEP 3: 구매 유형 선택 (번호이동 / 기기변경) -->
+                <div class="mb-10">
+                    <div class="flex items-center justify-between mb-4">
+                        <label class="text-sm font-bold text-zinc-900 flex items-center gap-2">
+                            <span class="w-5 h-5 rounded-full bg-[#E6007E] text-white text-xs flex items-center justify-center font-bold">3</span>
+                            LG U+ 가입 유형 선택 (특별 지원금 자동 적용)
+                        </label>
+                        <span id="selectedJoinLabel" class="text-xs font-bold text-[#E6007E]">번호이동 (-500,000원 지원)</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" id="joinOptions">
+                        <button type="button" id="btnJoinMnp" onclick="selectJoinType('번호이동 (통신사이동)', 500000, this)" class="join-btn p-5 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-left transition flex items-center justify-between">
+                            <div>
+                                <span class="text-xs font-bold text-[#E6007E] block">타 통신사 ➔ LG U+</span>
+                                <span class="text-base sm:text-lg font-extrabold text-zinc-900 mt-0.5 block">번호이동 (통신사이동)</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-[11px] text-zinc-500 block">대리점 특별 지원금</span>
+                                <span class="text-base sm:text-lg font-black text-[#E6007E]">-500,000원</span>
+                            </div>
+                        </button>
+
+                        <button type="button" id="btnJoinChange" onclick="selectJoinType('기기변경', 300000, this)" class="join-btn p-5 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-left transition flex items-center justify-between">
+                            <div>
+                                <span class="text-xs font-bold text-zinc-500 block">기존 LG U+ 고객 유지</span>
+                                <span class="text-base sm:text-lg font-extrabold text-zinc-800 mt-0.5 block">기기변경</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-[11px] text-zinc-500 block">대리점 특별 지원금</span>
+                                <span class="text-base sm:text-lg font-black text-purple-600">-300,000원</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 실시간 예상 혜택가 영수증 요약 박스 -->
+                <div class="mb-10 p-5 sm:p-6 rounded-2xl bg-pink-50/50 border border-pink-200">
+                    <div class="flex flex-wrap items-center justify-between gap-2 pb-3 mb-3 border-b border-pink-200/70">
+                        <span class="text-xs font-bold text-[#E6007E]">내가 선택한 LG U+ 사전예약 견적 요약</span>
+                        <span id="summaryBadge" class="text-xs font-bold text-white bg-[#E6007E] px-3 py-1 rounded-full">
+                            스타화이트 · 512GB · 번호이동 (통신사이동)
+                        </span>
+                    </div>
+                    <div class="space-y-2 text-xs sm:text-sm">
+                        <div class="flex justify-between text-zinc-600">
+                            <span>예상 출고가</span>
+                            <span id="receiptOriginPrice" class="font-semibold text-zinc-900">3,590,000원</span>
+                        </div>
+                        <div class="flex justify-between text-[#E6007E]">
+                            <span>사전예약 대리점 특별 지원금</span>
+                            <span id="receiptDiscountPrice" class="font-bold">-500,000원</span>
+                        </div>
+                        <div class="flex justify-between items-baseline pt-3 border-t border-pink-200/70">
+                            <span class="font-bold text-zinc-900">지원금 적용 후 예상 구매가 <span class="text-[11px] font-normal text-zinc-500">(공시/선약 추가할인 전)</span></span>
+                            <span id="receiptFinalPrice" class="text-xl sm:text-2xl font-black text-[#E6007E]">3,090,000원</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 4: 신청자 정보 입력 -->
+                <div class="mb-8 pt-6 border-t border-zinc-200">
+                    <label class="text-sm font-bold text-zinc-900 flex items-center gap-2 mb-4">
+                        <span class="w-5 h-5 rounded-full bg-[#E6007E] text-white text-xs flex items-center justify-center font-bold">4</span>
+                        신청자 정보 입력 (해피콜 및 알림톡 수신)
+                    </label>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="userName" class="block text-xs font-semibold text-zinc-600 mb-1.5">이름 *</label>
+                            <input type="text" id="userName" required placeholder="홍길동"
+                                class="w-full px-4 py-3.5 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E] focus:bg-white transition">
+                        </div>
+                        <div>
+                            <label for="userPhone" class="block text-xs font-semibold text-zinc-600 mb-1.5">휴대폰 번호 (사전예약 알림톡 수신) *</label>
+                            <input type="tel" id="userPhone" required maxlength="13" placeholder="010-0000-0000" oninput="autoHyphenPhone(this)"
+                                class="w-full px-4 py-3.5 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E] focus:bg-white transition">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="userMemo" class="block text-xs font-semibold text-zinc-600 mb-1.5">요청사항 (선택)</label>
+                        <input type="text" id="userMemo" placeholder="예: 오후 2시 이후 연락 부탁드립니다 / 요금제 상담 희망"
+                            class="w-full px-4 py-3.5 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E] focus:bg-white transition">
+                    </div>
+                </div>
+
+                <!-- 개인정보 동의 -->
+                <div class="bg-zinc-50 border border-zinc-200 rounded-2xl p-4 mb-6">
+                    <label class="flex items-start gap-3 cursor-pointer select-none">
+                        <input type="checkbox" id="privacyAgree" required class="mt-1 w-4 h-4 rounded accent-[#E6007E]">
+                        <span class="text-xs text-zinc-600 leading-relaxed">
+                            <strong class="text-zinc-900">[필수] 개인정보 수집 및 LG U+ 사전예약 해피콜 수신 동의</strong><br>
+                            입력하신 정보는 iPhone Duo 사전예약 접수(10월 16일 오후 9시~) 안내, 대리점 특별 지원금 적용 및 개통 상담 목적으로만 안전하게 사용됩니다.
+                        </span>
+                    </label>
+                </div>
+
+                <p id="formErrorMsg" class="hidden text-xs text-red-600 font-semibold mb-4 text-center"></p>
+
+                <button type="submit" class="btn-shine w-full py-5 rounded-2xl bg-gradient-to-r from-[#E6007E] to-pink-600 hover:from-[#d10072] hover:to-pink-500 text-white font-extrabold text-lg sm:text-xl shadow-xl shadow-[#E6007E]/30 transition flex items-center justify-center gap-2">
+                    <span>LG U+ 사전예약 신청하기 (카톡 간편접수)</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                    </svg>
+                </button>
+                <p class="text-[11px] text-zinc-500 text-center mt-2.5">
+                    * 신청하기 클릭 시 작성하신 예약 내역이 자동 복사되며, <strong>한빛컴퍼니 카카오톡 채널 채팅방</strong>으로 즉시 연결됩니다.
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- 5. 하단 초대형 사전예약 CTA & 분리된 소형 카톡/전화 상담 섹션 -->
+    <section id="consult" class="py-20 px-4 border-t border-zinc-200 bg-white">
+        <div class="max-w-3xl mx-auto text-center reveal">
+            <!-- 메인: 가장 큰 사전예약 신청하기 영역 -->
+            <div class="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-pink-50 via-white to-purple-50 border-2 border-[#E6007E]/30 shadow-xl mb-8">
+                <span class="inline-block text-xs font-extrabold text-[#E6007E] bg-white border border-pink-200 px-3 py-1 rounded-full mb-3">
+                    10월 16일(금) 오후 9시 사전예약 시작 · 10월 23일(금) 출시
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-zinc-900 tracking-tight mb-3">
+                    망설이면 1차 배정 물량이 마감됩니다!
+                </h2>
+                <p class="text-zinc-600 text-sm sm:text-base mb-7">
+                    번호이동 <strong class="text-[#E6007E]">50만 원</strong> · 기기변경 <strong class="text-purple-600">30만 원</strong> 특별 지원금을 지금 바로 선점하세요.
+                </p>
+
+                <!-- 제일 큰 사전예약 신청하기 버튼 -->
+                <a href="#preorder-form" onclick="document.getElementById('userName').focus()" class="btn-shine w-full py-5 sm:py-6 px-8 rounded-2xl bg-gradient-to-r from-[#E6007E] to-pink-600 hover:from-[#d10072] hover:to-pink-500 text-white font-black text-xl sm:text-2xl shadow-2xl shadow-[#E6007E]/35 transition flex items-center justify-center gap-3">
+                    <span>사전예약 신청하기</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- 서브: 작고 깔끔하게 분리된 카톡상담 / 전화상담 영역 -->
+            <div class="pt-4">
+                <p class="text-xs font-semibold text-zinc-500 mb-3">
+                    신청 전 요금제나 지원금 조건이 궁금하신가요? 간편 상담을 이용해 보세요.
+                </p>
+                <div class="inline-flex flex-wrap items-center justify-center gap-3">
+                    <!-- 소형 카카오톡 상담 신청 버튼 (카카오채널 채팅 링크 바로 연결) -->
+                    <a href="http://pf.kakao.com/_rExbYG/chat" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-[#FEE500] hover:bg-[#f5dc00] text-[#191919] font-bold text-xs sm:text-sm shadow-sm transition flex items-center gap-2">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 3C6.477 3 2 6.477 2 10.765c0 2.775 1.872 5.208 4.688 6.57-.206.768-.746 2.785-.854 3.218-.133.535.196.528.413.384.17-.113 2.707-1.838 3.797-2.58.628.09 1.278.138 1.956.138 5.523 0 10-3.477 10-7.73S17.523 3 12 3z"/>
+                        </svg>
+                        <span>카카오톡 상담 신청하기</span>
+                    </a>
+
+                    <!-- 소형 전화상담 하기 버튼 -->
+                    <button type="button" onclick="openConsultModal('phone')" class="px-4 py-2.5 rounded-xl bg-zinc-100 hover:bg-zinc-200 text-zinc-800 border border-zinc-300 font-bold text-xs sm:text-sm shadow-sm transition flex items-center gap-2">
+                        <svg class="w-4 h-4 text-[#E6007E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                        <span>전화상담 하기</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. 자주 묻는 질문 (FAQ) -->
+    <section id="faq" class="py-24 px-4 border-t border-zinc-200 bg-zinc-50/60">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12 reveal">
+                <span class="text-xs font-bold tracking-widest uppercase text-[#E6007E]">FAQ</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 tracking-tight text-zinc-900">자주 묻는 질문</h2>
+            </div>
+
+            <div class="space-y-4 reveal">
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(0)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. iPhone Duo의 공식 사전예약 기간과 출시일은 언제인가요?</span>
+                        <svg id="faq-icon-0" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-0" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        공식 사전예약은 <strong class="text-zinc-900">10월 16일 오후 9시</strong>부터 시작되며, 대한민국 공식 출시일은 <strong class="text-zinc-900">10월 23일</strong>입니다. 지금 미리 사전예약 신청서를 접수해 두시면 10월 16일 오후 9시 정각에 최우선으로 해피콜 및 본 개통 접수가 진행됩니다.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(1)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. 대리점 특별 지원금(번호이동 50만원 / 기기변경 30만원)은 어떻게 적용되나요?</span>
+                        <svg id="faq-icon-1" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-1" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        LG 유플러스 공식 대리점 단독 프로모션으로, 통신사 기본 혜택인 공시지원금 또는 선택약정(25% 요금할인)에 추가로 더해드리는 특별 지원금입니다. 개통 시 단말기 할부원금에서 즉시 차감되므로 월 할부금 부담을 대폭 낮추실 수 있습니다.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(2)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. 신청 후 색상(스타화이트/나이트 스카이)이나 용량을 변경할 수 있나요?</span>
+                        <svg id="faq-icon-2" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-2" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        네, 물론입니다! 현재 신청은 우선 재고 배정 및 특별 지원금 대상자 등록을 위한 절차이며, 전문 상담원 해피콜 단계에서 색상(스타화이트, 나이트 스카이) 및 용량(256GB~2TB)을 최종 확정하거나 변경하실 수 있습니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 (사업자 정보 및 공식인증대리점 한빛컴퍼니 엠블럼) -->
+    <footer class="py-12 px-4 border-t border-zinc-200 bg-zinc-50/50 text-zinc-500 text-xs">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center sm:items-start justify-between gap-6">
+            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
+                <!-- LG유플러스 공식인증대리점 한빛컴퍼니 소형 엠블럼 -->
+                <div class="w-20 h-20 shrink-0 select-none" title="LG유플러스 공식인증대리점 한빛컴퍼니">
+                    <svg viewBox="0 0 220 220" class="w-full h-full drop-shadow-sm" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="hanbitRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#2c498d" />
+                                <stop offset="45%" stop-color="#3c6e91" />
+                                <stop offset="100%" stop-color="#5da73c" />
+                            </linearGradient>
+                            <path id="topArcPath" d="M 33,110 A 77,77 0 1,1 187,110" />
+                            <path id="bottomArcPath" d="M 30,115 A 80,80 0 0,0 190,115" />
+                        </defs>
+                        <circle cx="110" cy="110" r="102" fill="#ffffff" />
+                        <circle cx="110" cy="110" r="82" fill="none" stroke="url(#hanbitRingGrad)" stroke-width="32" />
+                        <text fill="#ffffff" font-size="13.5" font-weight="700" letter-spacing="1.2">
+                            <textPath href="#topArcPath" startOffset="50%" text-anchor="middle" dominantBaseline="central">
+                                LG유플러스공식인증대리점
+                            </textPath>
+                        </text>
+                        <text fill="#ffffff" font-size="17" font-weight="800" letter-spacing="5">
+                            <textPath href="#bottomArcPath" startOffset="50%" text-anchor="middle">
+                                한빛컴퍼니
+                            </textPath>
+                        </text>
+                        <g transform="translate(46, 91)">
+                            <circle cx="19" cy="19" r="18" fill="#c40452" />
+                            <path d="M 19,9 L 19,25 L 25,25" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" />
+                            <circle cx="13.5" cy="14" r="2" fill="#ffffff" />
+                            <path d="M 33,19 A 14,14 0 1,1 19,5" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" />
+                            <line x1="25" y1="19" x2="33" y2="19" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" />
+                        </g>
+                        <text x="90" y="118" fill="#686868" font-size="27" font-weight="900" font-family="Arial, sans-serif" letter-spacing="-1">LG U</text>
+                        <text x="152" y="106" fill="#686868" font-size="20" font-weight="900" font-family="Arial, sans-serif">+</text>
+                    </svg>
+                </div>
+
+                <!-- 사업자 상세 정보 -->
+                <div class="space-y-1.5 leading-relaxed">
+                    <p class="font-extrabold text-zinc-900 text-sm">LG유플러스 한빛컴퍼니</p>
+                    <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-zinc-600">
+                        <span><strong class="text-zinc-700">대표자 :</strong> 김영주</span>
+                        <span class="hidden sm:inline text-zinc-300">|</span>
+                        <span><strong class="text-zinc-700">사업자번호 :</strong> 652-06-01248</span>
+                        <span class="hidden sm:inline text-zinc-300">|</span>
+                        <span><strong class="text-zinc-700">대표전화 :</strong> <a href="tel:054-715-8981" class="hover:text-[#E6007E] font-semibold transition">054-715-8981</a></span>
+                    </div>
+                    <p class="text-zinc-600">
+                        <strong class="text-zinc-700">주소 :</strong> 경북 구미시 신시로 49 1층
+                    </p>
+                    <p class="text-[11px] text-zinc-400 pt-1">
+                        Copyright © LG U+ 공식인증대리점 한빛컴퍼니. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 모바일 하단 고정 바 (사전예약 버튼 초대형 + 카톡/전화 소형 분리) -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 sm:hidden bg-white/95 backdrop-blur-md border-t border-zinc-200 p-2.5 flex items-center gap-2 shadow-[0_-8px_25px_rgba(0,0,0,0.08)]">
+        <a href="#preorder-form" class="btn-shine flex-1 py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#E6007E] to-pink-600 text-white font-extrabold text-sm text-center shadow-md shadow-[#E6007E]/25">
+            사전예약 신청하기
+        </a>
+        <a href="http://pf.kakao.com/_rExbYG/chat" target="_blank" rel="noopener noreferrer" class="py-3 px-3 rounded-xl bg-[#FEE500] text-[#191919] font-bold text-xs flex flex-col items-center justify-center shrink-0">
+            <span>카톡상담</span>
+        </a>
+        <a href="tel:054-715-8981" class="py-3 px-3 rounded-xl bg-zinc-100 text-zinc-800 border border-zinc-300 font-bold text-xs flex flex-col items-center justify-center shrink-0">
+            <span>전화상담</span>
+        </a>
+    </div>
+
+    <!-- 사전예약 완료 모달 팝업 (카카오채널 채팅 전송 연동) -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+        <div class="bg-white max-w-md w-full rounded-3xl p-6 sm:p-8 text-center border border-pink-200 shadow-2xl transform transition-all max-h-[92vh] overflow-y-auto">
+            <div class="w-14 h-14 rounded-full bg-[#FEE500] flex items-center justify-center mx-auto mb-4 text-[#191919] shadow-sm">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 3C6.477 3 2 6.477 2 10.765c0 2.775 1.872 5.208 4.688 6.57-.206.768-.746 2.785-.854 3.218-.133.535.196.528.413.384.17-.113 2.707-1.838 3.797-2.58.628.09 1.278.138 1.956.138 5.523 0 10-3.477 10-7.73S17.523 3 12 3z"/>
+                </svg>
+            </div>
+            <span class="inline-block text-[11px] font-extrabold bg-pink-50 text-[#E6007E] border border-pink-200 px-3 py-0.5 rounded-full mb-2">
+                ✓ 신청서 내용이 클립보드에 자동 복사되었습니다!
+            </span>
+            <h3 class="text-xl sm:text-2xl font-extrabold text-zinc-900 mb-1.5">카톡 채팅방에 붙여넣어 주세요!</h3>
+            <p class="text-xs text-zinc-600 mb-5 leading-relaxed">
+                아래 <strong class="text-zinc-900">[카톡 채팅방 열기]</strong> 버튼을 누른 후, 열린 채팅창 입력칸에 <strong class="text-[#E6007E]">'붙여넣기(전송)'</strong>를 해주시면 대리점 상담원에게 예약 정보가 즉시 전달됩니다.
+            </p>
+
+            <div class="bg-zinc-50 rounded-2xl p-4 text-left text-xs space-y-2 mb-4 border border-zinc-200">
+                <div class="flex justify-between">
+                    <span class="text-zinc-500">예약자 성함</span>
+                    <span id="modalUserName" class="text-zinc-900 font-bold">-</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-zinc-500">연락처</span>
+                    <span id="modalUserPhone" class="text-zinc-900 font-bold">-</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-zinc-500">선택 모델 및 유형</span>
+                    <span id="modalUserSpec" class="text-[#E6007E] font-bold text-right">-</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-zinc-500">적용 특별 지원금</span>
+                    <span id="modalUserDiscount" class="text-zinc-900 font-extrabold">-</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-zinc-500">요청사항</span>
+                    <span id="modalUserMemo" class="text-zinc-700 font-medium text-right max-w-[65%] break-words">-</span>
+                </div>
+                <div class="flex justify-between pt-2 border-t border-zinc-200">
+                    <span class="text-zinc-500">예약 대기 코드</span>
+                    <span id="modalQueueCode" class="text-[#E6007E] font-mono font-bold">UPLUS-84920</span>
+                </div>
+            </div>
+
+            <div class="mb-5 text-left">
+                <div class="flex items-center justify-between mb-1">
+                    <span class="text-[11px] font-bold text-zinc-500">전송될 예약 메시지 미리보기</span>
+                    <button type="button" onclick="copyPreorderMessage()" class="text-[11px] font-bold text-[#E6007E] hover:underline flex items-center gap-1">
+                        <span id="copyBtnLabel">📋 다시 복사하기</span>
+                    </button>
+                </div>
+                <textarea id="kakaoMessagePreview" readonly rows="4" class="w-full p-2.5 rounded-xl bg-zinc-100 border border-zinc-200 text-[11px] text-zinc-700 font-mono leading-relaxed focus:outline-none resize-none"></textarea>
+            </div>
+
+            <div class="space-y-2.5">
+                <a href="http://pf.kakao.com/_rExbYG/chat" target="_blank" rel="noopener noreferrer" onclick="copyPreorderMessage()" class="btn-shine w-full py-4 rounded-xl bg-[#FEE500] hover:bg-[#f5dc00] text-[#191919] font-extrabold text-sm sm:text-base transition flex items-center justify-center gap-2 shadow-md">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 3C6.477 3 2 6.477 2 10.765c0 2.775 1.872 5.208 4.688 6.57-.206.768-.746 2.785-.854 3.218-.133.535.196.528.413.384.17-.113 2.707-1.838 3.797-2.58.628.09 1.278.138 1.956.138 5.523 0 10-3.477 10-7.73S17.523 3 12 3z"/>
+                    </svg>
+                    <span>카톡 채팅방 열기 (붙여넣기 전송)</span>
+                </a>
+
+                <div class="grid grid-cols-2 gap-2">
+                    <a href="http://pf.kakao.com/_rExbYG" target="_blank" rel="noopener noreferrer" class="py-2.5 rounded-xl bg-zinc-100 hover:bg-zinc-200 text-zinc-700 font-bold text-xs transition flex items-center justify-center">
+                        카카오채널 홈 보기
+                    </a>
+                    <button type="button" onclick="closeModal()" class="py-2.5 rounded-xl bg-zinc-100 hover:bg-zinc-200 text-zinc-600 font-bold text-xs transition">
+                        창 닫기
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 전화 상담 전용 모달 팝업 -->
+    <div id="consultModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+        <div class="bg-white max-w-md w-full rounded-3xl p-8 border border-zinc-200 shadow-2xl relative">
+            <button type="button" onclick="closeConsultModal()" class="absolute top-5 right-5 text-zinc-400 hover:text-zinc-700">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div id="consultModalBadge" class="inline-block text-xs font-extrabold px-3 py-1 rounded-full mb-3 bg-[#E6007E] text-white">
+                전문 상담원 전화 연결
+            </div>
+            <h3 id="consultModalTitle" class="text-2xl font-extrabold text-zinc-900 mb-2">전화상담 신청하기</h3>
+            <p id="consultModalDesc" class="text-xs sm:text-sm text-zinc-600 mb-6">
+                연락처를 남겨주시면 전담 매니저가 전화를 드려 지원금 및 요금제를 친절히 안내해 드립니다.
+            </p>
+
+            <form id="consultForm" onsubmit="handleConsultSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-600 mb-1">고객님 성함 *</label>
+                    <input type="text" id="consultName" required placeholder="홍길동"
+                        class="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E]">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-600 mb-1">연락처 *</label>
+                    <input type="tel" id="consultPhone" required maxlength="13" placeholder="010-0000-0000" oninput="autoHyphenPhone(this)"
+                        class="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E]">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-600 mb-1">궁금하신 내용 (선택)</label>
+                    <input type="text" id="consultQuestion" placeholder="번호이동 50만원 지원금 조건이 궁금해요"
+                        class="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-300 text-zinc-900 text-sm focus:outline-none focus:border-[#E6007E]">
+                </div>
+
+                <div id="directCallBox" class="p-3.5 rounded-xl bg-pink-50 border border-pink-200 text-center">
+                    <p class="text-xs text-zinc-600">기다리지 않고 바로 통화를 원하시면?</p>
+                    <a href="tel:054-715-8981" class="inline-block mt-1 text-lg font-black text-[#E6007E] underline">📞 054-715-8981 바로 전화걸기</a>
+                </div>
+
+                <p id="consultSuccessNotice" class="hidden text-xs text-emerald-700 font-semibold text-center py-2 bg-emerald-50 rounded-xl border border-emerald-200">
+                    ✓ 상담 신청이 접수되었습니다! 담당자가 곧 연락드리겠습니다.
+                </p>
+
+                <button type="submit" id="consultSubmitBtn" class="w-full py-3.5 rounded-xl bg-[#E6007E] hover:bg-[#d10072] text-white font-extrabold text-sm transition">
+                    1:1 전화상담 신청 완료하기
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // 현재 선택된 사전예약 옵션 상태 (기본값: 스타화이트 / 512GB / 번호이동)
+        const orderState = {
+            color: '스타화이트',
+            storage: '512GB',
+            originPrice: 3590000,
+            joinType: '번호이동 (통신사이동)',
+            discount: 500000
+        };
+
+        function formatKRW(num) {
+            return num.toLocaleString('ko-KR') + '원';
+        }
+
+        // 요약 배지 및 영수증 금액 업데이트
+        function updateSummaryAndReceipt() {
+            const badge = document.getElementById('summaryBadge');
+            badge.textContent = `${orderState.color} · ${orderState.storage} · ${orderState.joinType}`;
+
+            document.getElementById('receiptOriginPrice').textContent = formatKRW(orderState.originPrice);
+            document.getElementById('receiptDiscountPrice').textContent = '-' + formatKRW(orderState.discount);
+            const finalPrice = Math.max(0, orderState.originPrice - orderState.discount);
+            document.getElementById('receiptFinalPrice').textContent = formatKRW(finalPrice);
+        }
+
+        // 색상 선택 핸들러
+        function selectColor(colorName, btnElement) {
+            orderState.color = colorName;
+            document.getElementById('selectedColorLabel').textContent = colorName;
+
+            const buttons = document.querySelectorAll('#colorOptions .color-btn');
+            buttons.forEach(btn => {
+                btn.className = 'color-btn flex items-center gap-4 p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-left transition';
+            });
+
+            btnElement.className = 'color-btn flex items-center gap-4 p-4 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-left transition';
+            updateSummaryAndReceipt();
+        }
+
+        // 저장 용량 선택 핸들러
+        function selectStorage(storageSize, priceNumber, btnElement) {
+            orderState.storage = storageSize;
+            orderState.originPrice = priceNumber;
+            document.getElementById('selectedStorageLabel').textContent = `${storageSize} (${formatKRW(priceNumber)})`;
+
+            const buttons = document.querySelectorAll('#storageOptions .storage-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('border-2', 'border-[#E6007E]', 'bg-pink-50/70');
+                btn.classList.add('border', 'border-zinc-200', 'bg-zinc-50');
+            });
+
+            btnElement.classList.remove('border', 'border-zinc-200', 'bg-zinc-50');
+            btnElement.classList.add('border-2', 'border-[#E6007E]', 'bg-pink-50/70');
+            updateSummaryAndReceipt();
+        }
+
+        // 가입 유형 선택 핸들러
+        function selectJoinType(joinName, discountAmount, btnElement) {
+            orderState.joinType = joinName;
+            orderState.discount = discountAmount;
+            document.getElementById('selectedJoinLabel').textContent = `${joinName} (-${formatKRW(discountAmount)} 지원)`;
+
+            const buttons = document.querySelectorAll('#joinOptions .join-btn');
+            buttons.forEach(btn => {
+                btn.className = 'join-btn p-5 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-left transition flex items-center justify-between';
+            });
+
+            btnElement.className = 'join-btn p-5 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-left transition flex items-center justify-between';
+            updateSummaryAndReceipt();
+        }
+
+        // 상단 지원금 배너에서 클릭 시 가입유형 자동 선택
+        function selectJoinTypeFromBenefit(joinName, discountAmount) {
+            const targetBtn = discountAmount === 500000
+                ? document.getElementById('btnJoinMnp')
+                : document.getElementById('btnJoinChange');
+            if (targetBtn) {
+                selectJoinType(joinName, discountAmount, targetBtn);
+            }
+        }
+
+        // 첨부한 원본 배너 사진 파일을 직접 선택해 즉시 적용할 수 있는 핸들러
+        function handleRealBannerUpload(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const uploadedImg = document.getElementById('uploadedBannerImg');
+                const uploadedContainer = document.getElementById('uploadedBannerContainer');
+                const defaultContainer = document.getElementById('defaultBannerContainer');
+                if (uploadedImg && uploadedContainer && defaultContainer) {
+                    uploadedImg.src = e.target.result;
+                    uploadedContainer.classList.remove('hidden');
+                    defaultContainer.classList.add('hidden');
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // 휴대폰 번호 자동 하이픈 입력
+        function autoHyphenPhone(input) {
+            let numbers = input.value.replace(/[^0-9]/g, '');
+            let formatted = '';
+            if (numbers.length < 4) {
+                formatted = numbers;
+            } else if (numbers.length < 8) {
+                formatted = numbers.slice(0, 3) + '-' + numbers.slice(3);
+            } else {
+                formatted = numbers.slice(0, 3) + '-' + numbers.slice(3, 7) + '-' + numbers.slice(7, 11);
+            }
+            input.value = formatted;
+        }
+
+        // 클립보드 복사 헬퍼 함수
+        function copyTextToClipboard(text) {
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = text;
+            tempTextArea.style.position = 'fixed';
+            tempTextArea.style.left = '-9999px';
+            document.body.appendChild(tempTextArea);
+            tempTextArea.focus();
+            tempTextArea.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {
+                console.error('클립보드 복사 실패:', err);
+            }
+            document.body.removeChild(tempTextArea);
+        }
+
+        function copyPreorderMessage() {
+            const previewEl = document.getElementById('kakaoMessagePreview');
+            if (!previewEl || !previewEl.value) return;
+            copyTextToClipboard(previewEl.value);
+
+            const labelEl = document.getElementById('copyBtnLabel');
+            if (labelEl) {
+                labelEl.textContent = '✓ 복사 완료!';
+                setTimeout(() => {
+                    labelEl.textContent = '📋 다시 복사하기';
+                }, 2000);
+            }
+        }
+
+        // 사전예약 폼 제출 핸들러
+        function handlePreorderSubmit(event) {
+            event.preventDefault();
+            const nameInput = document.getElementById('userName').value.trim();
+            const phoneInput = document.getElementById('userPhone').value.trim();
+            const memoInput = document.getElementById('userMemo').value.trim() || '없음';
+            const errorMsg = document.getElementById('formErrorMsg');
+
+            if (phoneInput.length < 12) {
+                errorMsg.textContent = '올바른 휴대폰 번호 11자리를 입력해 주세요.';
+                errorMsg.classList.remove('hidden');
+                return;
+            }
+            errorMsg.classList.add('hidden');
+
+            const queueCode = 'UPLUS-' + Math.floor(10000 + Math.random() * 90000);
+            const finalPrice = Math.max(0, orderState.originPrice - orderState.discount);
+
+            const kakaoFormattedMessage =
+`[LG U+ 한빛컴퍼니 iPhone Duo 사전예약 신청서]
+■ 예약코드 : ${queueCode}
+■ 성함 : ${nameInput}
+■ 연락처 : ${phoneInput}
+■ 희망모델 : iPhone Duo (${orderState.color} / ${orderState.storage})
+■ 가입유형 : ${orderState.joinType}
+■ 특별지원금 : -${formatKRW(orderState.discount)} 적용
+■ 지원금 적용 후 예상가 : ${formatKRW(finalPrice)}
+■ 요청사항 : ${memoInput}
+
+위 내용으로 사전예약 및 해피콜 상담 신청합니다.`;
+
+            copyTextToClipboard(kakaoFormattedMessage);
+
+            document.getElementById('modalUserName').textContent = nameInput;
+            document.getElementById('modalUserPhone').textContent = phoneInput;
+            document.getElementById('modalUserSpec').textContent = `${orderState.color} / ${orderState.storage} (${orderState.joinType})`;
+            document.getElementById('modalUserDiscount').textContent = `-${formatKRW(orderState.discount)} 특별 지원`;
+            document.getElementById('modalUserMemo').textContent = memoInput;
+            document.getElementById('modalQueueCode').textContent = queueCode;
+            document.getElementById('kakaoMessagePreview').value = kakaoFormattedMessage;
+
+            const modal = document.getElementById('successModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.getElementById('reservationForm').reset();
+        }
+
+        // 전화 상담 모달 열기
+        function openConsultModal(type) {
+            const modal = document.getElementById('consultModal');
+            const successNotice = document.getElementById('consultSuccessNotice');
+            successNotice.classList.add('hidden');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeConsultModal() {
+            const modal = document.getElementById('consultModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.getElementById('consultForm').reset();
+        }
+
+        function handleConsultSubmit(event) {
+            event.preventDefault();
+            const notice = document.getElementById('consultSuccessNotice');
+            notice.classList.remove('hidden');
+            setTimeout(() => {
+                closeConsultModal();
+            }, 1800);
+        }
+
+        // FAQ 아코디언 토글
+        function toggleFaq(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            const isHidden = content.classList.contains('hidden');
+
+            if (isHidden) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // 실시간 카운트다운 타이머
+        function startCountdown() {
+            const nowYear = new Date().getFullYear();
+            const preOrderStart = new Date(nowYear, 9, 16, 21, 0, 0).getTime(); // 10월 16일 21:00
+            const officialLaunch = new Date(nowYear, 9, 23, 0, 0, 0).getTime(); // 10월 23일 00:00
+
+            const updateTimer = () => {
+                const now = new Date().getTime();
+                let targetTime = preOrderStart;
+                const titleEl = document.getElementById('countdown-title');
+
+                if (now >= preOrderStart && now < officialLaunch) {
+                    targetTime = officialLaunch;
+                    titleEl.textContent = '10월 23일 공식 출시 및 개통 마감까지 남은 시간';
+                } else if (now >= officialLaunch) {
+                    targetTime = now + (2 * 24 * 60 * 60 * 1000) + (7 * 60 * 60 * 1000);
+                }
+
+                const distance = Math.max(0, targetTime - now);
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+                document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('cd-mins').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('cd-secs').textContent = String(seconds).padStart(2, '0');
+            };
+
+            updateTimer();
+            setInterval(updateTimer, 1000);
+        }
+
+        // 스크롤 시 요소 페이드인 감지
+        function initScrollReveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.12 });
+
+            reveals.forEach(el => observer.observe(el));
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            startCountdown();
+            initScrollReveal();
+            updateSummaryAndReceipt();
+        });
+    </script>
+</body>
+</html>
