@@ -162,7 +162,7 @@
             <!-- 실시간 카운트다운 타이머 -->
             <div class="max-w-md mx-auto mb-10 p-4 rounded-2xl glass-card reveal active">
                 <p id="countdown-title" class="text-xs text-[#E6007E] mb-2.5 font-bold tracking-wider uppercase">
-                    10월 16일 오후 9시 사전예약 오픈까지 남은 시간
+                    10월 22일 밤 12시 사전예약 마감까지 남은 시간
                 </p>
                 <div class="grid grid-cols-4 gap-2 text-center">
                     <div class="bg-zinc-50 border border-zinc-200 rounded-xl py-2.5">
@@ -685,6 +685,42 @@
                         네, 물론입니다! 현재 신청은 우선 재고 배정 및 특별 지원금 대상자 등록을 위한 절차이며, 전문 상담원 해피콜 단계에서 색상(스타화이트, 나이트 스카이) 및 용량(256GB~2TB)을 최종 확정하거나 변경하실 수 있습니다.
                     </div>
                 </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(3)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. 유심카드를 변경해야 되나요?</span>
+                        <svg id="faq-icon-3" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-3" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        아이폰 듀오 모델은 <strong class="text-zinc-900">eSIM 전용 모델</strong>로 개통 시에 eSIM으로 바로 등록해 드립니다.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(4)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. 신청하면 바로 결제 및 계약이 되나요?</span>
+                        <svg id="faq-icon-4" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-4" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        사전예약 신청은 <strong class="text-zinc-900">기기 배정을 위한 순번을 잡는 것</strong>으로, 신청만으로 결제하는 것은 없습니다.
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden bg-white">
+                    <button type="button" onclick="toggleFaq(5)" class="w-full px-6 py-5 text-left flex items-center justify-between gap-4">
+                        <span class="font-bold text-sm sm:text-base text-zinc-900">Q. 기기는 어떻게 받을 수 있나요?</span>
+                        <svg id="faq-icon-5" class="w-5 h-5 text-zinc-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-content-5" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
+                        <strong class="text-zinc-900">전국 택배 발송</strong> 가능하며, <strong class="text-[#E6007E]">대구/경북 10개 매장</strong>으로 방문하셔서 수령도 가능합니다.
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1108,22 +1144,15 @@
         // 실시간 카운트다운 타이머
         function startCountdown() {
             const nowYear = new Date().getFullYear();
-            const preOrderStart = new Date(nowYear, 9, 16, 21, 0, 0).getTime(); // 10월 16일 21:00
-            const officialLaunch = new Date(nowYear, 9, 23, 0, 0, 0).getTime(); // 10월 23일 00:00
+            // 10월 22일 밤 12시 (자정 = 24:00:00, 즉 10월 22일 24시 00분 00초) 기준 사전예약 마감
+            const preOrderDeadline = new Date(nowYear, 9, 22, 24, 0, 0).getTime();
 
             const updateTimer = () => {
                 const now = new Date().getTime();
-                let targetTime = preOrderStart;
                 const titleEl = document.getElementById('countdown-title');
+                titleEl.textContent = '10월 22일 밤 12시 사전예약 마감까지 남은 시간';
 
-                if (now >= preOrderStart && now < officialLaunch) {
-                    targetTime = officialLaunch;
-                    titleEl.textContent = '10월 23일 공식 출시 및 개통 마감까지 남은 시간';
-                } else if (now >= officialLaunch) {
-                    targetTime = now + (2 * 24 * 60 * 60 * 1000) + (7 * 60 * 60 * 1000);
-                }
-
-                const distance = Math.max(0, targetTime - now);
+                const distance = Math.max(0, preOrderDeadline - now);
                 const days = Math.floor(distance / (1000 * 60 * 60 * 24));
                 const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
