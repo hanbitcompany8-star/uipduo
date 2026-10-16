@@ -452,30 +452,26 @@
                             <span class="w-5 h-5 rounded-full bg-[#E6007E] text-white text-xs flex items-center justify-center font-bold">2</span>
                             저장 용량 선택 (Storage)
                         </label>
-                        <span id="selectedStorageLabel" class="text-xs font-bold text-[#E6007E]">512GB (3,590,000원)</span>
+                        <span id="selectedStorageLabel" class="text-xs font-bold text-[#E6007E]">512GB (3,597,000원)</span>
                     </div>
 
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="storageOptions">
-                        <button type="button" onclick="selectStorage('256GB', 3290000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="storageOptions">
+                        <button type="button" onclick="selectStorage('256GB', 3300000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
                             <p class="text-base sm:text-lg font-extrabold text-zinc-900">256GB</p>
-                            <p class="text-xs text-zinc-500 mt-1">3,290,000원</p>
+                            <p class="text-xs text-zinc-500 mt-1">3,300,000원</p>
                         </button>
-                        <button type="button" onclick="selectStorage('512GB', 3590000, this)" class="storage-btn p-4 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-center transition relative">
+                        <button type="button" onclick="selectStorage('512GB', 3597000, this)" class="storage-btn p-4 rounded-2xl border-2 border-[#E6007E] bg-pink-50/70 text-center transition relative">
                             <span class="absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-extrabold bg-[#E6007E] text-white px-2.5 py-0.5 rounded-full">인기</span>
                             <p class="text-base sm:text-lg font-extrabold text-zinc-900">512GB</p>
-                            <p class="text-xs text-[#E6007E] font-semibold mt-1">3,590,000원</p>
+                            <p class="text-xs text-[#E6007E] font-semibold mt-1">3,597,000원</p>
                         </button>
-                        <button type="button" onclick="selectStorage('1TB', 4190000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
+                        <button type="button" onclick="selectStorage('1TB', 4191000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
                             <p class="text-base sm:text-lg font-extrabold text-zinc-900">1TB</p>
-                            <p class="text-xs text-zinc-500 mt-1">4,190,000원</p>
-                        </button>
-                        <button type="button" onclick="selectStorage('2TB', 5090000, this)" class="storage-btn p-4 rounded-2xl border border-zinc-200 bg-zinc-50 hover:border-zinc-300 text-center transition">
-                            <p class="text-base sm:text-lg font-extrabold text-zinc-900">2TB</p>
-                            <p class="text-xs text-zinc-500 mt-1">5,090,000원</p>
+                            <p class="text-xs text-zinc-500 mt-1">4,191,000원</p>
                         </button>
                     </div>
                     <p class="text-[11px] text-zinc-500 mt-2.5 pl-1">
-                        * 256GB(3,290,000원), 512GB(3,590,000원), 1TB(4,190,000원), 2TB(5,090,000원)은 공식 출시 전 책정된 <strong class="text-zinc-700">예상 출고가 금액입니다.</strong>
+                        * 256GB(3,300,000원), 512GB(3,597,000원), 1TB(4,191,000원)는 공식 확정된 <strong class="text-zinc-700">출고가 금액입니다.</strong>
                     </p>
                 </div>
 
@@ -524,8 +520,8 @@
                     </div>
                     <div class="space-y-2 text-xs sm:text-sm">
                         <div class="flex justify-between text-zinc-600">
-                            <span>예상 출고가</span>
-                            <span id="receiptOriginPrice" class="font-semibold text-zinc-900">3,590,000원</span>
+                            <span>출고가</span>
+                            <span id="receiptOriginPrice" class="font-semibold text-zinc-900">3,597,000원</span>
                         </div>
                         <div class="flex justify-between text-[#E6007E]">
                             <span>사전예약 대리점 특별 지원금</span>
@@ -533,7 +529,7 @@
                         </div>
                         <div class="flex justify-between items-baseline pt-3 border-t border-pink-200/70">
                             <span class="font-bold text-zinc-900">지원금 적용 후 예상 구매가 <span class="text-[11px] font-normal text-zinc-500">(공시/선약 추가할인 전)</span></span>
-                            <span id="receiptFinalPrice" class="text-xl sm:text-2xl font-black text-[#E6007E]">3,090,000원</span>
+                            <span id="receiptFinalPrice" class="text-xl sm:text-2xl font-black text-[#E6007E]">3,097,000원</span>
                         </div>
                     </div>
                 </div>
@@ -682,7 +678,7 @@
                         </svg>
                     </button>
                     <div id="faq-content-2" class="hidden px-6 pb-5 text-xs sm:text-sm text-zinc-600 leading-relaxed border-t border-zinc-100 pt-4">
-                        네, 물론입니다! 현재 신청은 우선 재고 배정 및 특별 지원금 대상자 등록을 위한 절차이며, 전문 상담원 해피콜 단계에서 색상(스타화이트, 나이트 스카이) 및 용량(256GB~2TB)을 최종 확정하거나 변경하실 수 있습니다.
+                        네, 물론입니다! 현재 신청은 우선 재고 배정 및 특별 지원금 대상자 등록을 위한 절차이며, 전문 상담원 해피콜 단계에서 색상(스타화이트, 나이트 스카이) 및 용량(256GB~1TB)을 최종 확정하거나 변경하실 수 있습니다.
                     </div>
                 </div>
 
@@ -927,7 +923,7 @@
         const orderState = {
             color: '스타화이트',
             storage: '512GB',
-            originPrice: 3590000,
+            originPrice: 3597000,
             joinType: '번호이동 (통신사이동)',
             discount: 500000
         };
